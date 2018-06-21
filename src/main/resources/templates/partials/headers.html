@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header">
+    <meta charset="UTF-8" />
+    <title>Client Service</title>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" th:href="@{/webjars/materialize-css/1.0.0-alpha.3/dist/css/materialize.min.css}" />
+    <link rel="stylesheet" th:href="@{/webjars/material-design-icons/3.0.1/material-icons.css}" />
+    <link rel="stylesheet" th:href="@{/webjars/materialize-css/1.0.0-alpha.3/extras/noUiSlider/nouislider.css}" />
+</head>
+<body>
+
+<section th:fragment="scripts">
+    <script th:src="@{/webjars/jquery/3.2.1/dist/jquery.min.js}"></script>
+    <script th:src="@{/webjars/materialize-css/1.0.0-alpha.3/dist/js/materialize.min.js}"></script>
+    <script th:src="@{/js/tender.js}"></script>
+</section>
+</body>
+</html>
